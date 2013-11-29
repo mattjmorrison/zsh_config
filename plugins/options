@@ -1,0 +1,14 @@
+setopt  auto_cd
+setopt  auto_pushd
+setopt  noclobber
+setopt  complete_aliases
+setopt  extended_glob
+setopt  hist_ignore_all_dups
+setopt  hist_ignore_space
+setopt  share_history
+setopt  noflowcontrol
+setopt  list_types
+setopt  mark_dirs
+setopt  path_dirs
+setopt  prompt_percent
+setopt  prompt_subst

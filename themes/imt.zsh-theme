@@ -258,5 +258,12 @@ function precmd_prompt {
  
     PROMPT="${(F)prompt_left_lines} "
 }
+local -a precmd_functions
+precmd_function=s( precmd_prompt )
+
+export LSCOLORS=gxfxcxdxbxegedabagacad
+export LANG=en_US.UTF-8
+export LC_ALL=$LANG
+export LC_COLLATE=C
+
 precmd_prompt
-precmd_functions=( precmd_prompt )

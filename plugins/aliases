@@ -1,4 +1,3 @@
-echo "Loading Aliases"
 alias ls='ls -FHG'
 alias ll='ls -lh'
 alias la='ls -la'

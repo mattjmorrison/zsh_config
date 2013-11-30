@@ -1,4 +1,3 @@
-echo "Loading Emacs Bindings"
 bindkey '^b' backward-word
 bindkey '^f' forward-word
 bindkey '^R' history-incremental-search-backward
